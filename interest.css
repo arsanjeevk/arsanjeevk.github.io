@@ -1,0 +1,239 @@
+html,
+body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+      scroll-behavior: smooth;
+}
+
+
+
+
+.sec-container-1 {
+      background: #E1E3DE;
+}
+
+.main-cont-heading {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 50px;
+      align-items: center;
+      font-family: Poppins, sans-serif;
+}
+
+.main-cont-arrow {
+      font-size: 40px;
+}
+
+.main-cont-arrow a {
+      color: rgb(32, 32, 32);
+}
+
+.main-cont-heading h1 {
+      color: rgb(24, 24, 24);
+      letter-spacing: 10px;
+      text-transform: uppercase;
+      font-size: 15px;
+}
+
+.main-cont-heading p {
+      color: gray;
+      line-height: 1.5;
+      font-size: 13px;
+}
+
+
+
+
+
+.slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+}
+
+.card {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      background: #fff;
+      flex-direction: row;
+}
+
+.card-img {
+      background-position: center;
+      width: 50%;
+      height: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+}
+
+#img01 {
+      background-image: url(Untitled-1.jpg);
+}
+
+#img02 {
+      background-image: url(Untitled-2.jpg);
+}
+
+#img03 {
+      background-image: url(Untitled-3.jpg);
+}
+
+#img04 {
+      background-image: url(Untitled-4.jpg);
+}
+
+#img05 {
+      background-image: url(Untitled-5.jpg);
+}
+
+#img06 {
+      background-image: url(Untitled-6.jpg);
+}
+
+.card-content {
+      padding: 10% 5%;
+      box-sizing: border-box;
+      width: 50%;
+      background: #0A0A0A;
+}
+
+.card-theme {
+      font-weight: 900;
+      font-size: 2.2vmin;
+      text-transform: uppercase;
+      font-family: Poppins, sans-serif;
+      letter-spacing: 10px;
+      color: grey;
+}
+
+.card-header {
+      font-weight: 700;
+      font-size: 54px;
+      text-transform: capitalize;
+      line-height: 1;
+      margin: 3vmin 0 3.5vmin;
+      color: #fff;
+      font-family: Poppins, sans-serif;
+}
+
+.card-para {
+      font-size: 1.6vmin;
+      line-height: 1.8;
+      font-weight: 300;
+      margin-bottom: 2.5vmin;
+      color: #fff;
+      font-family: Poppins, sans-serif;
+}
+
+.card-link {
+      color: #fff;
+      font-family: Poppins, sans-serif;
+      font-size: 1.8vmin;
+      display: block;
+      cursor: pointer;
+      opacity: 0.7;
+      transition: opacity 0.3s ease;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+      .card {
+            flex-direction: column;
+            height: auto;
+      }
+
+      .card-img {
+            width: 100%;
+            height: 40vh;
+      }
+
+      .card-content {
+            width: 100%;
+            padding: 5% 10%;
+      }
+
+      .card-header {
+            font-size: 28px;
+      }
+
+      .card-para {
+            font-size: 14px;
+      }
+
+      .card-link {
+            font-size: 16px;
+      }
+
+      .prevnext {
+            width: 100%;
+            height: auto;
+            position: static;
+            margin-top: 10px;
+            justify-content: space-between;
+      }
+
+      .pn-btn {
+            font-size: 16px;
+      }
+}
+
+@media (max-width: 480px) {
+      .card-header {
+            font-size: 20px;
+      }
+
+      .card-para {
+            font-size: 12px;
+      }
+
+      .card-link {
+            font-size: 14px;
+      }
+
+      .card-img {
+            height: 35vh;
+      }
+
+      .prevnext {
+            width: 100%;
+            justify-content: space-between;
+      }
+
+      .pn-btn {
+            font-size: 12px;
+            width: 40px;
+            height: 40px;
+      }
+
+      #prev:after {
+            content: "←";
+      }
+
+      #next:after {
+            content: "→";
+      }
+}
+
+.direct-link {
+      text-align: center;
+      padding: 50px;
+}
+
+.direct-link a {
+      text-decoration: none;
+      margin: 0 4px;
+      color: gray;
+}
+
+.direct-link a:hover {
+      color: #000;
+}
