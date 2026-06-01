@@ -6,55 +6,378 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>arsanjeevk.com</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
 
     <!-- <link rel="stylesheet" href="gallay.css"> -->
-    <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900" rel="stylesheet">
-
     <!--  *****   Link To Font Awsome Icons   *****  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
 
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="skills.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="projects.css">
 </head>
 
 <body>
 
+
+    <a href="#banner" class="scroll-top">
+    <i class="fa-solid fa-arrow-up"></i>
+</a>
+
     <!-- top navigation bar starts -->
 
     <section id="banner">
+    <div class="banner-overlay"></div>
+
+    <div class="banner-content">
         <div class="banner-text">
-            <h2>Sanjeev K</h2>
-            <p>
-                <a
-                    href="https://www.linkedin.com/in/sanjeev-kumawat-0b174123b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
-                    <span>Linkedin</span></a>
-                <!-- <a href="Sk Resume.pdf" target="_blank">Resume</a> -->
-                <a href="https://github.com/arsanjeevk"><span>GitHub</span></a>
-            </p>
+            <p class="banner-kicker">Physics • Astronomy • Machine Learning • Web Development</p>
+            <h1>Sanjeev K</h1>
+            <!-- <p class="banner-desc">
+                I build simple, thoughtful, and scientific digital projects that connect
+                curiosity with code.
+            </p> -->
+
+            <div class="banner-links">
+                <a href="index.html#projects" class="banner-btn primary">View Projects</a>
+                <a href="index.html#about" class="banner-btn">About Me</a>
+            </div>
+
+            <div class="banner-social">
+                <a href="https://www.linkedin.com/in/sanjeev-kumawat-0b174123b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                    LinkedIn
+                </a>
+                <a href="https://github.com/arsanjeevk" target="_blank">
+                    GitHub
+                </a>
+                <a href="index.html#contact">
+                    Contact
+                </a>
+            </div>
         </div>
-    </section>
-
-    <div id="sidenav">
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="work.html">Work</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
     </div>
+</section>
 
-    <div id="menubtn">
-        <div id="menu">Menu</div>
-    </div>
+<div id="sidenav">
+    <nav>
+        <ul>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#skills">Skills</a></li>
+            <li><a href="index.html#projects">Projects</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div id="menubtn">
+    <div id="menu">Menu</div>
+</div>
 
     <!-- top navigation bar ends -->
+
+
+
+
+    <!-- about me section starts  -->
+
+   <section class="about-section" id="about">
+    <div class="about-container">
+
+        <div class="about-visual">
+            <div class="ring ring-1"></div>
+            <div class="ring ring-2"></div>
+            <div class="ring ring-3"></div>
+
+            <div class="about-photo">
+                <img src="images/about-profile.jpg" alt="Profile photo of Sanjeev K">
+            </div>
+
+            <span class="dot dot-1"></span>
+            <span class="dot dot-2"></span>
+            <span class="dot dot-3"></span>
+            <span class="dot dot-4"></span>
+            <span class="dot dot-5"></span>
+        </div>
+
+        <div class="about-content">
+            <p class="about-label">About Me</p>
+            <h1>Hi, I’m Sanjeev K</h1>
+            <p class="about-text">
+                I am a Physics student with a strong interest in astronomy, machine learning,
+                and web development. I enjoy building simple, meaningful projects that combine
+                science, logic, and creativity.
+            </p>
+            <p class="about-text">
+                My work focuses on learning through practice, exploring scientific data, and
+                creating clean digital experiences with modern frontend design.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+
+    <!-- skill section starts here -->
+<section class="skills-section" id="skills">
+
+    <div class="skills-header">
+        <p class="skills-label">Skills</p>
+        <p>
+            Learning deeply. Building thoughtfully. Exploring endlessly.
+        </p>
+    </div>
+
+    <div class="skills-grid">
+
+        <div class="skill-group">
+            <h3>Programming</h3>
+            <p>Python · C · JavaScript</p>
+        </div>
+
+        <div class="skill-group">
+            <h3>Machine Learning</h3>
+            <p>NumPy · Pandas · Scikit-Learn</p>
+        </div>
+
+        <div class="skill-group">
+            <h3>Astronomy</h3>
+            <p>FITS Analysis · Photometry · AstroPy</p>
+        </div>
+
+        <div class="skill-group">
+            <h3>Web Development</h3>
+            <p>HTML · CSS · Responsive Design</p>
+        </div>
+
+        <div class="skill-group">
+            <h3>Tools</h3>
+            <p>Linux · Git · GitHub</p>
+        </div>
+
+        <div class="skill-group">
+            <h3>Scientific Computing</h3>
+            <p>Numerical Methods · Differential Equations</p>
+        </div>
+
+    </div>
+
+</section>
+    <!-- skills section ends -->
+
+
+    <!-- projects section starts here -->
+   <section class="projects-section" id="projects">
+    <div class="projects-header">
+        <h1>PROJECTS</h1>
+        <p>
+            A few selected works from astronomy, physics, machine learning,
+            and web development.
+        </p>
+    </div>
+
+    <div class="projects-divider"></div>
+
+    <div class="project-list">
+
+        <div class="project-row">
+            <div class="project-text">
+                <p class="project-tag">Astronomy</p>
+                <h2>HST Image Analysis</h2>
+                <p class="project-desc">
+                    A project focused on analyzing astronomical images using scientific tools and basic
+                    image processing techniques. It helped me understand how data from space can be
+                    interpreted visually and computationally.
+                </p>
+                <div class="project-links">
+                    <a href="#">View Project</a>
+                    <a href="#">GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-media">
+                <img src="images/project-1.jpg" alt="Astronomy project">
+            </div>
+        </div>
+
+        <div class="project-row reverse">
+            <div class="project-text">
+                <p class="project-tag">Machine Learning</p>
+                <h2>House Price Prediction</h2>
+                <p class="project-desc">
+                    A regression-based machine learning project where I worked with real datasets,
+                    cleaned the data, and trained a model to predict house prices.
+                </p>
+                <div class="project-links">
+                    <a href="#">View Project</a>
+                    <a href="#">GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-media">
+                <img src="images/project-2.png" alt="Machine learning project">
+            </div>
+        </div>
+
+        <!-- <div class="project-row">
+            <div class="project-text">
+                <p class="project-tag">Physics</p>
+                <h2>Numerical Methods Solver</h2>
+                <p class="project-desc">
+                    A computational physics project built to solve numerical problems using Python,
+                    differential equations, and integration techniques.
+                </p>
+                <div class="project-links">
+                    <a href="#">View Project</a>
+                    <a href="#">GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-media">
+                <img src="project-3.jpg" alt="Physics project">
+            </div>
+        </div> -->
+
+        <!-- <div class="project-row reverse">
+            <div class="project-text">
+                <p class="project-tag">Web Development</p>
+                <h2>Personal Portfolio Website</h2>
+                <p class="project-desc">
+                    A responsive portfolio website designed to present my work, interests, and technical
+                    skills in a simple and attractive way.
+                </p>
+                <div class="project-links">
+                    <a href="#">Live Demo</a>
+                    <a href="#">GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-media">
+                <img src="project-4.jpg" alt="Web development project">
+            </div>
+        </div> -->
+
+    </div>
+</section>
+
+    <!-- projects section ends -->
+
+
+
+
+
+    <!-- interests section starts here -->
+    <section class="interest-section" id="interests">
+
+        <div class="interest-heading">
+            <h1>INTERESTS</h1>
+            <p>
+                The activities and fields that keep me curious, creative,
+                and motivated to learn.
+            </p>
+        </div>
+
+        <div class="interest-grid">
+
+            <div class="interest-card blue">
+                <h2>Work</h2>
+                <img src="images/Untitled-6.jpg" alt="">
+            </div>
+
+            <div class="interest-card olive">
+                <h2>Sports</h2>
+                <img src="images/Untitled-1.jpg" alt="">
+            </div>
+
+            <div class="interest-card green">
+                <h2>Music</h2>
+                <img src="images/Untitled-2.jpg" alt="">
+            </div>
+
+            <div class="interest-card pink">
+                <h2>Photography</h2>
+                <img src="images/Untitled-3.jpg" alt="">
+            </div>
+
+            <div class="interest-card orange">
+                <h2>Reading</h2>
+                <img src="images/Untitled-4.jpg" alt="">
+            </div>
+
+            <div class="interest-card purple">
+                <h2>Design</h2>
+                <img src="images/Untitled-5.jpg" alt="">
+            </div>
+
+            <div class="interest-card sky">
+                <h2>Astronomy</h2>
+                <img src="images/Untitled-2.jpg" alt="">
+            </div>
+
+            <div class="interest-card violet">
+                <h2>Machine<br>Learning</h2>
+                <img src="images/Untitled-4.jpg" alt="">
+            </div>
+
+        </div>
+
+    </section>
+    <!-- interests section ends -->
+
+
+
+
+    <!-- contact section starts -->
+    <section class="footer" id="contact">
+        <div class="footer-row">
+            <div class="footer-left">
+                <h1>ADDRESS</h1>
+                <p>Interstellar Home</p>
+                <p>Jaipur, Rajasthan</p>
+            </div>
+
+            <div class="footer-right">
+                <h1>GET IN TOUCH</h1>
+
+                <p>
+                    <a href="https://t.me/arsanjeevk">
+                        Chat with Me
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </a>
+                </p>
+
+                <p>
+                    <a href="mailto:arsanjeevk@gmail.com">
+                        arsanjeevk@gmail.com
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </p>
+
+                <!-- <p>
+                    <a href="tel:+919664101246">
+                        +91 9664101246
+                        <i class="fa-solid fa-phone"></i>
+                    </a>
+                </p> -->
+
+            </div>
+        </div>
+
+        <div class="social-links">
+            <p>&copy; Arsanjeevk 2025</p>
+            <p>Made with ❤ by SK</p>
+        </div>
+
+    </section>
+    <!-- contact section ends -->
+
+
 
     <script src="script.js"></script>
 
 </body>
 
 </html>
-
-
